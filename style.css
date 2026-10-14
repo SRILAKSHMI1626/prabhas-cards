@@ -1,0 +1,49 @@
+/* Universal Selector */
+
+* {
+  box-sizing: border-box;
+  }
+
+/* Element Selector */
+body {
+background-color: lightblue;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+/* Class Selector */
+.section {
+width: 80%;
+margin: 20px auto;
+padding: 20px;
+border: 2px solid gray;
+border-radius: 10px;
+}
+
+/* ID Selector */
+#registration {
+background-color: lightyellow;
+}
+
+/* Group Selector */
+input, select, textarea {
+padding: 8px;
+margin-top: 5px;
+}
+
+/* Button Styling */
+input[type="submit"],
+input[type="reset"] {
+background-color: darkblue;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+
+/* Iframe Styling */
+iframe {
+max-width: 100%;
+border: 2px solid gray;
+}

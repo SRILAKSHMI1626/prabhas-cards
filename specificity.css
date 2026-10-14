@@ -1,0 +1,16 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    color: chartreuse;
+}
+h1{
+   
+    font-size: 18px;
+    
+
+}
+p{
+    font-size: 15px;
+    
+}
